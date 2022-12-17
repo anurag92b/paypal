@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   font-family: 'Open Sans', sans-serif;
+  flex-direction: column;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Open Sans', sans-serif;
+
+}
+.external_wrapper {
+    max-width:480px;
+    border: 1px solid;
+    border: 1px solid #eaeced;
+    border-radius:10px;
+    width: 100%;
+    padding: 24px 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 1%) 0px 6px 18px 5px, rgb(0 0 0 / 2%) 0px 4px 8px;
+}
+
+.logo_Coi_box {
+    /* width: 126px; */
+    max-width: 126px;
+}
+.logo_Coinbase_w h1 {
+    font-size:48px;
+    font-weight:900;
+    margin-bottom:30px;
+}
+.external_wrapper .col-md-12 {
+    padding: 0px;
+}
+div#form_login #cointiue_btn{
+    width: 100%;
+    background-color:#142c8e;
+    border-radius: 45px;
+    padding: 15px 0px;
+    margin-top:16px;
+    border:1px solid #eaeced;
+    font-weight:600;
+}
+
+div#form_login #Create_acou_btn{
+    width: 100%;
+    background: #eef0f3;
+    border-radius: 45px;
+    padding: 16px 0px;
+}
+
+div#form_login button .form-check {
+    position: relative;
+    display: block;
+    padding-left:0px!important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding:32px 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    /*background-color: #f5f5f5;*/
+    background-clip: padding-box;
+    border: 1px solid #f5f5f5;
+    border-radius:5px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border:1px solid #9da3a6;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #0052ff;
+    outline: 0;
+    box-shadow: 0 0 0 .2remrgba(0,123,255,.25);
+    border:3px solid #0052ff;
+    box-shadow: 0 0 0 0.2rem #007bff00;
+}
+
+div#form_login #Create_acou_btn {
+    width: 100%;
+    background: #eef0f3;
+    border-radius: 45px;
+    padding: 16px 0px;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #eef0f3;
+}
+
+div#form_login #Create_acou_btn .btn-primary.focus, 
+div#form_login #Create_acou_btn .btn-primary:focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 0%)!important;
+}
+/*30-------------- */
+
+.sign_inbnox{
+ text-align: center;
+}
+
+
+.sign_inbnox h6 {
+    color: #0052ff;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.sign_inbnox p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0px;
+    color: rgb(0, 0, 0);
+}
+.sign_inbnox h6 a{
+    text-decoration: none;
+    display:block;
+    font-size:16px;
+    font-weight:600;
+    color:#3944eb;
+}
+.sign_inbnox p a{
+    text-decoration: none;
+    color:#000;
+    margin-left:5px;
+    position:relative;
+}
+.sign_inbnox p a::before {
+    content: "";
+    border-bottom: 2px solid #3944eb;
+    /* height: 10px; */
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+}
+.privately p {
+    font-size: 13px;
+    color: #5b616e;
+}
+div#important_messa p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+/*div#important_messa h5 {
+    font-size: 22px;
+}*/
+#img_message .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #1552f0;
+}
+div#img_message {
+    text-align: center;
+}
+
+/*=========== errro css*/
+
+div#img_message span {
+    font-size: 13px;
+    color: #000px;
+    color: #000;
+}
+div#img_message p {
+    margin-top: 13px;
+    font-weight: 600;
+}
+/*30-6-2022*/
+div#errorpagenew {
+    text-align: center;
+}
+#errorpagenew .logo_Coi_box {
+    /* width: 126px; */
+    max-width: 126px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+/*div#important_messa h5 {
+   margin-top: 35px;
+}*/
+
+/*----------- 02-11-2022---------*/
+.MuiGrid-root.MuiGrid-container.css-10bjjys {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: auto;
+    max-width: 495px;
+    /* height: 0px; */
+    padding: 0px;
+    margin: 0px;
+    margin-bottom:37px;
+}
+
+
+/*=================== start form====================*/
+.form label{
+ font-size:11px;
+}
+
+
+/*============= paypal new css start =================*/
+.logo_box{
+    text-align:center;
+    padding-bottom:30px;
+}
+.logo_box img{
+ max-width:35px;
+ margin:15px auto;
+
+}
+.forget_pass a {
+    color: #1072eb;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform:capitalize;
+}
+.sign_up a{
+    display:block;
+    border-radius:30px;
+    padding:10px 10px;
+    border:1px solid #142c8e;
+    text-align:center;
+    text-decoration: none;
+    color:#142c8e!important;
+    font-weight:500;
+}
+.sign_up a:hover{
+ border:2px solid #142c8e;
+}
+.or_line{
+   position:relative; 
+   text-align:center;
+   margin-bottom:25px;
+   margin-top:25px;
+   color:#000;
+}
+.or_line::before {
+    content:"";
+    border-bottom: 1px solid #d5d5d5;
+    position: absolute;
+    width: 44%;
+    line-height: 0px;
+    left: 0;
+    top: 14px;
+}
+
+.or_line::after{
+    content:"";
+    border-bottom:1px solid #d5d5d5;
+    position: absolute;
+    width:44%;
+    line-height: 0px;
+    right:0;
+    top: 14px;
+}
+/*============= paypal new css end =================*/
+
+@media (max-width: 575.98px) {
+ .external_wrapper {
+    max-width:370px;
+    border: 1px solid;
+    border: 1px solid #5b616e33;
+    border-radius: 18px;
+    width: 100%;
+    padding: 35px 35px;
+    
+}
+
+
+}
+
+@media (max-width: 767.98px) {
+ .external_wrapper {
+    margin-top:60px;
+}
+
+.MuiGrid-root.MuiGrid-container.css-10bjjys {
+   max-width: 330px;
+   }
+   body {
+    display: flex;
+    justify-content: flex-start;
+   }
+
+
+}
+
+
+/*-------*/
+@media (max-width: 1600.98px){
+    .MuiGrid-root.MuiGrid-container.css-10bjjys {
+    display: flex;
+   margin-top: 50px;
+}
+
+}
+
+
+
+
+
